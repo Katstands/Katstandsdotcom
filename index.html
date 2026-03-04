@@ -2,9 +2,9 @@
 
 <script language="javascript">
 
-function return1()
+function return1(loc)
 {
-  window.location="music.html";
+  window.location=loc;
 }
 </script>
 
@@ -18,4 +18,5 @@ function return1()
   
 </div>
 
-<button type="button" onclick="return1()">music</button>
+<button type="button" onclick="return1("music.html")">music</button>
+  <button type="button" onclick="return1("index.html")">art</button>
